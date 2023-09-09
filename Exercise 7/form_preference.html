@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find a pet</title>
+</head>
+<body>
+
+<table>
+  <tr>
+
+    <td class="header-elem" colspan="2">
+      <div class="header">
+        <h1 class="header-text">Adopt-a-Pet</h1>
+      </div>
+    </td>
+  </tr>
+  <tr >
+    <td class="menu-elem">
+      <div class="side-menu ">
+        <ul class="navlist">
+
+          <li class="navelem" id="top-brad" ><a href="Q8.html">Home page</a></li>
+          <li class="navelem"><a href="pets.html">Browse Available Pets</a></li>
+          <li class="navelem"><a href="form_preference.html">Find a dog/cat</a></li>
+          <li class="navelem"><a href="care_for_dogs.html">Dog Care</a></li>
+          <li class="navelem"><a href="care_for_cats.html">Cat Care</a></li>
+          <li class="navelem"><a href="for_adoption.html">Cat/Dog for Adoption</a></li>
+          <li class="navelem"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </td>
+
+    <td class="form-element">
+      <form onsubmit="return validateForm();">
+        <h1>Find a pet</h1>
+        <fieldset>
+
+          <legend>Preference</legend>
+          <br>
+          <label for="petType">Cat or Dog:</label>
+          <select id="petType" name="petType">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+          </select>
+          <br><br>
+
+          <label for="breed">Breed of Dog or Cat:</label>
+          <select id="breed" name="breed">
+            <option value="doesn't matter">Doesn't Matter</option>
+            <option value="breedA">Breed A</option>
+            <option value="breedB">Breed B</option>
+            <option value="breedC">Breed C</option>
+            <option value="breedD">Breed D</option>
+
+          </select>
+          <br><br>
+
+          Preferred Age:
+          <select name="age" id="age">
+            <option value="doesn't matter">Doesn't Matter</option>
+            <option value="puppy/kitten">Puppy/Kitten</option>
+            <option value="adult">Adult</option>
+            <option value="senior">Senior</option>
+          </select>
+          <br><br>
+
+          Preferred Gender:
+          <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="doesn't matter">Doesn't Matter</option>
+          </select>
+          <br><br>
+
+          Compatibility:
+          <div id="compatibility">
+            <input type="checkbox" id="otherDogs" name="compatibility" value="otherDogs">
+            <label for="otherDogs">Other Dogs</label>
+
+            <input type="checkbox" id="otherCats" name="compatibility" value="otherCats">
+            <label for="otherCats">Other Cats</label>
+
+            <input type="checkbox" id="smallChildren" name="compatibility" value="smallChildren">
+            <label for="smallChildren">Small Children</label>
+          </div>
+          <br><br>
+        </fieldset>
+
+        <br><br>
+        <div id="error-message" style="color: red;"></div>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+      </form>
+
+    </td>
+
+  </tr>
+  <tr>
+    <td colspan="2">
+      <div id="footer">
+        <p class="footer-text">© 2023 Adopt-a-Pet. All rights reserved. | <a href="privacy.html">Privacy/Disclaimer Statement</a></p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

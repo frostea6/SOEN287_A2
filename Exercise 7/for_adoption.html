@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Pet for Adoption</title>
+</head>
+<body>
+<h1>Pet for Adoption</h1>
+<form>
+  <fieldset>
+    <legend>Information</legend>
+
+    <label for="petType">Cat or Dog:</label>
+    <select id="petType" name="petType">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+    </select>
+    <br><br>
+
+    <label for="breed">Breed of Dog or Cat:</label>
+    <select id="breed" name="breed">
+      <option value="doesn't matter">Doesn't Matter</option>
+      <option value="breedA">Breed A</option>
+      <option value="breedB">Breed B</option>
+      <option value="breedC">Breed C</option>
+      <option value="breedD">Breed D</option>
+    </select>
+    <br><br>
+
+    <label for="age">Pets Age:</label>
+    <select id="age" name="age">
+      <option value="doesn't matter">Doesn't Matter</option>
+      <option value="puppy/kitten">Puppy/Kitten</option>
+      <option value="adult">Adult</option>
+      <option value="senior">Senior</option>
+    </select>
+    <br><br>
+
+    <label for="gender">Pets Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="doesn't matter">Doesn't Matter</option>
+    </select>
+    <br><br>
+
+    Compatibility:
+    <div id="compatibility">
+      <input type="checkbox" id="otherDogs" name="compatibility" value="otherDogs">
+      <label for="otherDogs">Other Dogs</label>
+
+      <input type="checkbox" id="otherCats" name="compatibility" value="otherCats">
+      <label for="otherCats">Other Cats</label>
+
+      <input type="checkbox" id="smallChildren" name="compatibility" value="smallChildren">
+      <label for="smallChildren">Small Children</label>
+    </div>
+    <br><br>
+
+    <label for="comments">Comments about the animal:</label>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+    <br><br>
+
+    <label for="ownerFamilyName">Current owner's family name:</label>
+    <input type="text" id="ownerFamilyName" name="ownerFamilyName">
+    <br><br>
+
+    <label for="ownerGivenName">Current owner's given name:</label>
+    <input type="text" id="ownerGivenName" name="ownerGivenName">
+    <br><br>
+
+    <label for="ownerEmail">Current owner's email:</label>
+    <input type="email" id="ownerEmail" name="ownerEmail">
+  </fieldset>
+
+  <br><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Clear">
+</form>
+<script src="validation.js"></script>
+</body>
+</html>

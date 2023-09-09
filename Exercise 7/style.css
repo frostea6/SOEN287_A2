@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e3e3e3;
+  color: black;
+  padding: 0;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+.form-element {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px;
+  border: 5px dotted #5c4033;
+  background-color: lightyellow;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: darkblue;
+}
+
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  font-size: 16px;
+}
+table{
+  border-spacing: 0px;
+}
+textarea {
+  resize: vertical;
+}
+
+.header {
+  background-color: #ffffe0;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  padding-left: 30px;
+  margin: 0px;
+  height: 60px;
+  color: #38598b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#footer {
+  height: 2.5rem;
+  padding-bottom: 100px;
+  background-color: #ffffe0;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+  color: #38598b;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#link-col {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #5c4033;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navelem {
+  background-color: #ffffe0;
+  color: #5c4033;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.active_elem {
+  color: #5c4033;
+  background-color: green;
+  padding: 16px;
+}
+
+.navelem:hover {
+  color: #5c4033;
+  padding: 16px;
+  background-color: yellow;
+}
+
+
+

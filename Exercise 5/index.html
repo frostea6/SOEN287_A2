@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Exercise 5: Pop up Windows </title>
+  <meta charset="UTF-8">
+  <script>
+    function getUserInfo() {
+      var fullName = prompt("What is your full name?");
+      var age = prompt("How old are you?");
+
+      var info = "Hi, my name is " + fullName + " and I’m " + age + " years old.";
+
+      var Div = document.getElementById("content");
+      Div.textContent = info;
+    }
+  </script>
+</head>
+<body onload="getUserInfo()">
+<p><strong>info:</strong></p>
+<div id="content"></div>
+</body>
+</html>
